@@ -1,0 +1,15 @@
+UTS
+
+1. apa yang dimaksud dengan framework pada pengembangan aplikasi?
+jawaban :
+    sebuah rancangan untuk mengembangkan aplikasi berbasis website maupun desktop.
+
+2.  a. sebutkan tema proyek yang sedang digarap!
+        tema yang didapatkan adalah laboraturium
+    b. sebutkan anggota dari proyek yang sedang digarap, berikut dengan jobdesk dari masing-masing anggota!
+        -Ryu Senna Fadhlika Al Aziz(Coder)
+        -Taufiq Sirajuddin (desain database)
+        -Tryo Wahyu Ramadhani (buat laporan)
+    c. Jelaskan permasalahan yang didapat setelah hasil wawancara dengan client, beserta hipotesa solusi yang kalian usung!
+        ploting penjadwalan yang ada pada tempat client itu masih manual dan proses pembuatannya memakan lebih banyak waktu
+        solusi yang kami usulkan adalah untuk membuat sebuah sistem ploting penjadwalan otomatis
