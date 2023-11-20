@@ -17,12 +17,12 @@ if (isset($_GET['id'])) {
         mysqli_query($db_connect, "UPDATE products SET name='$newName', price='$newPrice' WHERE id=$id");
 
         // Alihkan ke halaman utama setelah pengeditan
-        header("Location: index.php");
+        header("Location: show.php");
         exit();
     }
 } else {
     // Alihkan ke halaman utama jika ID tidak disediakan
-    header("Location: index.php");
+    header("Location: show.php");
     exit();
 }
 ?>

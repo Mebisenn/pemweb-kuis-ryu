@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Data Produk</title>
 </head>
 <body>
     <h1>Data produk</h1>
@@ -12,9 +12,13 @@
             <tr>
                 <th>#</th>
                 <th>Nama produk</th>
-                <th>harga</th>
-                <th>gambar produk</th>
+                <th>Harga</th>
+                <th>Gambar produk</th>
                 <th>Opsi</th>
+                <form>
+                    <!-- Isi formulir tambah produk di sini -->
+                    <button type="submit" formaction="create.php">Tambah Produk</button>
+                </form>
             </tr>
         </thead>
         <tbody>
@@ -30,17 +34,15 @@
                     <td><?=$no++;?></td>
                     <td><?=$row['name'];?></td>
                     <td><?=$row['price'];?></td>
-                    <!-- <td><img src="<?=$row['image'];?>" width="100"></td> -->
-                    <td><a href="<?=$row['image'];?>" target="_blank">unduh</a></td>
+                    <td><a href="<?=$row['image'];?>" target="_blank">Lihat</a></td>
+                    <td><a href="<?=$row['image'];?>" download>Unduh</a></td>
                     <td>
                         <a href="edit.php?id=<?=$row['id'];?>">Edit</a>
                         <a href="delete.php?id=<?=$row['id'];?>">Hapus</a>
-
                     </td>
                 </tr>
             <?php } ?>
         </tbody>
     </table>
-    
 </body>
 </html>

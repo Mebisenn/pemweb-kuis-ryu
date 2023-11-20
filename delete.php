@@ -8,11 +8,11 @@ if (isset($_GET['id'])) {
     mysqli_query($db_connect, "DELETE FROM products WHERE id=$id");
 
     // Alihkan ke halaman utama setelah penghapusan
-    header("Location: index.php");
+    header("Location: show.php");
     exit();
 } else {
     // Alihkan ke halaman utama jika ID tidak disediakan
-    header("Location: index.php");
+    header("Location: show.php");
     exit();
 }
 ?>
